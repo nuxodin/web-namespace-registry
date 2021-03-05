@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Namespace Registry</title>
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+  </head>
+  <body>
+
+<script type=module>
+  fetch('../registry.v1.json').then(()=>return response.json()).then(parse);
+  function parse(registry){
+    for (const [namespace, frameworks] of Object.entries(registry)) {
+      for (const framework of framewords) {
+        console.log(`${key}: ${value}`);
+        const html = 
+              `<tr>
+                  <td>${$key}
+                  <td>
+                      <a href="{$framework.repo}">${$framework.name}</a>
+                  <td>${framework.affected.contains('cp')?'✔':''}
+                  <td>${framework.affected.contains('csscp')?'✔':''}
+                  <td>${framework.affected.contains('ca')?'✔':''}
+              `
+        resultEl.insertAdjacentHTML('beforeend', html);
+      }
+    }
+  }
+</script>
+
+<h1>Web Namespace Registry</h1>
+<table id=resultEl>
+  <thead>
+    <tr>
+      <th>Namespace
+      <th>Framework
+      <th>Custom Elements
+      <th>CSS Custom Properties
+      <th>Custom Attributes
+  <tbody id=resultEl>
+</table>

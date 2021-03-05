@@ -1,4 +1,11 @@
 {
+    "tangy": [
+        {
+            "name":"Tangerine Community",
+            "url":"https://github.com/Tangerine-Community",
+            "affected":["ce"]
+        }
+    ]
     "bs":[
         {
             "name":"bootstrap",

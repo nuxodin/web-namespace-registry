@@ -40,5 +40,12 @@
             "repo":"https://github.com/PolymerElements",
             "affected":["ce"]
         }
+    ],
+    "std":[
+        {
+            "name":"Is discussed as polyfillable standard elements",
+            "repo":"https://github.com/whatwg/html/issues/4696",
+            "affected":["ce"]
+        }
     ]
 }

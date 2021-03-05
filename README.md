@@ -5,6 +5,6 @@ A registry for namespaces for custom elements, data attributes, custom attribute
 this way
 
 ## Add your own framework
-Make a fork, extend registry.vs.json and make a pullrequest.
+Make a fork, extend registry.v1.json and make a pullrequest.
 
 

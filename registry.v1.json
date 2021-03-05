@@ -1,4 +1,11 @@
 {
+    "a": [
+        {
+            "name":"A-Frame",
+            "url":"https://github.com/aframevr/aframe/",
+            "affected":["ce"]
+        }
+    ],
     "tangy": [
         {
             "name":"Tangerine Community",

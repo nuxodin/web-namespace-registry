@@ -27,6 +27,13 @@
             "affected":["ce","ca"]
         }
     ],
+    "mv":[
+        {
+            "name":"Mavo",
+            "repo":"https://github.com/mavoweb/mavo",
+            "affected":["ca"]
+        }
+    ],
     "iron":[
         {
             "name":"PolymerElements",

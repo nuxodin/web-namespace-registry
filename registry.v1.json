@@ -2,57 +2,64 @@
     "bs":[
         {
             "name":"bootstrap",
-            "repo":"https://github.com/twbs/bootstrap",
-            "affected":["csscp"]
+            "url":"https://github.com/twbs/bootstrap",
+            "affected":["css-cp"]
         }
     ],
     "ion":[
         {
             "name":"ionic-framework",
-            "repo":"https://github.com/ionic-team/ionic-framework",
-            "affected":["ce","ca","csscp"]
+            "url":"https://github.com/ionic-team/ionic-framework",
+            "affected":["ce","ca","css-cp"]
         }
     ],
     "mdc":[
         {
             "name":"material-components",
-            "repo":"https://github.com/material-components/material-components-web",
-            "affected":["ce","csscp"]
+            "url":"https://github.com/material-components/material-components-web",
+            "affected":["ce","css-cp"]
         }
     ],
     "mat":[
         {
             "name":"Angular components",
-            "repo":"https://github.com/angular/components",
+            "url":"https://github.com/angular/components",
             "affected":["ce","ca"]
         }
     ],
     "mv":[
         {
             "name":"Mavo",
-            "repo":"https://github.com/mavoweb/mavo",
+            "url":"https://github.com/mavoweb/mavo",
             "affected":["ca"]
         }
     ],
     "iron":[
         {
             "name":"PolymerElements",
-            "repo":"https://github.com/PolymerElements",
+            "url":"https://github.com/PolymerElements",
             "affected":["ce"]
         }
     ],
     "paper":[
         {
             "name":"PolymerElements",
-            "repo":"https://github.com/PolymerElements",
+            "url":"https://github.com/PolymerElements",
             "affected":["ce"]
         }
     ],
     "std":[
         {
             "name":"Is discussed as polyfillable standard elements",
-            "repo":"https://github.com/whatwg/html/issues/4696",
+            "url":"https://github.com/whatwg/html/issues/4696",
             "affected":["ce"]
+        }
+    ],
+    "aria":[
+        {
+            "name":"Aria-Attributes are used by W3C",
+            "url":"https://www.w3.org/TR/wai-aria-1.1/",
+            "affected":["ca"]
         }
     ]
 }

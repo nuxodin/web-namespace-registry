@@ -10,7 +10,7 @@
         {
             "name":"ionic-framework",
             "repo":"https://github.com/ionic-team/ionic-framework",
-            "affected":["ce"]
+            "affected":["ce","ca","csscp"]
         }
     ],
     "mdc":[

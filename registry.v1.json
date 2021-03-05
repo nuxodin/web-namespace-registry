@@ -1,0 +1,23 @@
+{
+    "bs":[
+        {
+            "name":"bootstrap",
+            "repo":"https://github.com/twbs/bootstrap",
+            "affected":["csscp"]
+        }
+    ],
+    "ion":[
+        {
+            "name":"ionic-framework",
+            "repo":"https://github.com/ionic-team/ionic-framework",
+            "affected":["ce"]
+        }
+    ],
+    "mdc":[
+        {
+            "name":"material-components",
+            "repo":"https://github.com/material-components/material-components-web",
+            "affected":["ce","csscp"]
+        }
+    ]
+}

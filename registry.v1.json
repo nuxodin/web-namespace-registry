@@ -26,5 +26,19 @@
             "repo":"https://github.com/angular/components",
             "affected":["ce","ca"]
         }
+    ],
+    "iron":[
+        {
+            "name":"PolymerElements",
+            "repo":"https://github.com/PolymerElements",
+            "affected":["ce"]
+        }
+    ],
+    "paper":[
+        {
+            "name":"PolymerElements",
+            "repo":"https://github.com/PolymerElements",
+            "affected":["ce"]
+        }
     ]
 }

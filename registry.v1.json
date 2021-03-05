@@ -19,5 +19,12 @@
             "repo":"https://github.com/material-components/material-components-web",
             "affected":["ce","csscp"]
         }
+    ],
+    "mat":[
+        {
+            "name":"Angular components",
+            "repo":"https://github.com/angular/components",
+            "affected":["ce","ca"]
+        }
     ]
 }

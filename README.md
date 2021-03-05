@@ -3,7 +3,7 @@ A registry for namespaces for custom elements, data attributes, custom attribute
 
 ## Check if namespace is used
 [this way](
-  https://rawcdn.githack.com/nuxodin/web-namespace-registry/b4669173b7b04404d26ce585ca54914e4dd87eab/web/index.html
+  https://rawcdn.githack.com/nuxodin/web-namespace-registry/0bc7ba316920a8481eb1a808323b14ec3067c783/web/index.html
 )
 
 ## Add your own framework

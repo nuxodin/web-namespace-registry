@@ -129,7 +129,7 @@
     if (value in window) {
       messages.push(`there is a property "${value}" in the global window object`)
     }
-    hintsEl.innerHTML = '':
+    hintsEl.innerHTML = '';
     messages.forEach(message=>{
       tecFilter.insertAdjacentHTML('beforeend', message);
     })

@@ -1,4 +1,11 @@
 {
+    "ui5": [
+        {
+            "name":"UI5 by SAP",
+            "url":"https://github.com/SAP/ui5-webcomponents",
+            "affected":["ce"]
+        }
+    ],
     "s": [
         {
             "name":"StartPolymer",

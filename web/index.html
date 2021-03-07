@@ -21,7 +21,7 @@
 <form id=searchEl style="display:flex; flex-wrap:wrap; gap:2rem; justify-content: space-between;">
   <label>
     Search: <input type=search name=search placeholder="namespace">
-    <p id=hintsEl style="color:#982c61"></p>
+    <p id=hintsEl style="color:#982c61; font-size:.8em; max-width:200px"></p>
   </label>
   <div id=tecFilter>
     <label style="line-height:1.2">
@@ -33,7 +33,7 @@
       </div>
     </label>
   </div>
-</form>    
+</form>
 
 <br>
 
@@ -123,16 +123,17 @@
   }
 
   /* hints */
-  addHint = function(hint){
+  function addHint(hint){
       hintsEl.insertAdjacentHTML('beforeend', hint+'<br>');
   }
-  function hints(value){
+  async function hints(value){
     const messages = [];
-    if (value in window) messages.push(`there is a property "${value}" in the global window object`)
+    if (value in window) messages.push(`There is a property "${value}" in the global window object`)
     hintsEl.innerHTML = '';
     messages.forEach(addHint)
-    var obj = await fetch('https://www.webcomponents.org/api/search/'+value+'-%20kind:element?limit=6&count').then(res=>res.json());
-    console.log(obj)
+    // find elements using this namespace on webcomponents.org, is there a API?
+    // var obj = await fetch('https://www.webcomponents.org/api/search/'+value+-'-%20kind:element?limit=6&count').then(res=>res.json());
+    // console.log(obj)
   }
 
 </script>

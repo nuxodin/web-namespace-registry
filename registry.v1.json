@@ -1,4 +1,26 @@
 {
+
+    "hiq": [
+        {
+            "name":"HiQ - CSS framework",
+            "url":"https://github.com/jonathanharrell/hiq",
+            "affected":["css-cp"]
+        }
+    ],
+    "ibm": [
+        {
+            "name":"IBM Research",
+            "url":"https://github.com/IBMResearch",
+            "affected":["ce"]
+        }
+    ],
+    "google": [
+        {
+            "name":"Google Web Components",
+            "url":"https://github.com/GoogleWebComponents",
+            "affected":["ce"]
+        }
+    ],
     "a": [
         {
             "name":"A-Frame",

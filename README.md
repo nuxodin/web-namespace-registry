@@ -1,5 +1,6 @@
 # Web Namespace Registry
-A registry for namespaces for custom elements, data attributes, custom attributes and css properties
+A registry for namespaces for custom elements, data attributes, custom attributes and css properties.   
+So that collisions do not occur.
 
 ## Check if a namespace is used
 [check here](
@@ -14,8 +15,8 @@ Can we agree on a project-specific namespace?
 This should not be used for frameworks, so it can be used in a project without hesitation.  
 So far I have always used "cd", (customer data) but maybe another one is more suitable.  
 
-- c (customer)
-- p (project)
-- ps (project specific)  
+- c- (customer)
+- p- (project)
+- ps- (project specific)  
 
 What is your opinion?

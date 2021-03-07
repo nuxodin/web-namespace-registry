@@ -4,7 +4,7 @@ So that collisions do not occur.
 
 ## Check if a namespace is used
 [check here](
-  https://rawcdn.githack.com/nuxodin/web-namespace-registry/93f445e44713bf53dad38042e45acb2fd9219f6b/web/index.html
+  https://rawcdn.githack.com/nuxodin/web-namespace-registry/4b73c83676d6722300b2b88ba068e800511b2acd/web/index.html
 )
 
 ## Add your own framework

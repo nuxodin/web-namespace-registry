@@ -126,14 +126,27 @@
   function addHint(hint){
       hintsEl.insertAdjacentHTML('beforeend', hint+'<br>');
   }
+
+
+  let controller = false;
+
   async function hints(value){
     const messages = [];
     if (value in window) messages.push(`There is a property "${value}" in the global window object`)
     hintsEl.innerHTML = '';
     messages.forEach(addHint)
-    // find elements using this namespace on webcomponents.org, is there a API?
-    // var obj = await fetch('https://www.webcomponents.org/api/search/'+value+-'-%20kind:element?limit=6&count').then(res=>res.json());
-    // console.log(obj)
+
+    //find elements using this namespace on webcomponents.org, is there a API?
+    controller && controller.abort();
+    controller = new AbortController();
+    let obj = await fetch('https://www.webcomponents.org/api/search/%22%3C'+value+'-%22%20kind:element', {signal:controller.signal}).then(res=>res.json());
+    controller = false;
+    const result = obj.results[0];
+    if (result) {
+      let url = 'https://www.webcomponents.org/search/%22%3C'+value+'-%22';
+      addHint('<a href="'+url+'" target=_blank>There are '+obj.results.length+' Elements on</a> on webcomponents.org that probably uses this namespace');
+    }
+    console.log(obj)
   }
 
 </script>

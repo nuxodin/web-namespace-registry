@@ -1,5 +1,32 @@
 {
-
+    "s": [
+        {
+            "name":"StartPolymer",
+            "url":"https://github.com/StartPolymer",
+            "affected":["ce"]
+        }
+    ],
+    "spectrum": [
+        {
+            "name":"Spectrum Web Components by Adobe",
+            "url":"https://github.com/adobe/spectrum-web-components",
+            "affected":["css-cp"]
+        }
+    ],
+    "sp": [
+        {
+            "name":"Spectrum Web Components by Adobe",
+            "url":"https://github.com/adobe/spectrum-web-components",
+            "affected":["ce"]
+        }
+    ],
+    "smart": [
+        {
+            "name":"Smart UI by jQWidgets",
+            "url":"https://github.com/HTMLElements",
+            "affected":["ce"]
+        }
+    ],
     "hiq": [
         {
             "name":"HiQ - CSS framework",
@@ -78,6 +105,13 @@
         }
     ],
     "paper":[
+        {
+            "name":"PolymerElements",
+            "url":"https://github.com/PolymerElements",
+            "affected":["ce"]
+        }
+    ],
+    "gold":[
         {
             "name":"PolymerElements",
             "url":"https://github.com/PolymerElements",

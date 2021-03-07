@@ -123,13 +123,16 @@
   }
 
   /* hints */
+  addHint = function(hint){
+      hintsEl.insertAdjacentHTML('beforeend', hint+'<br>');
+  }
   function hints(value){
     const messages = [];
     if (value in window) messages.push(`there is a property "${value}" in the global window object`)
     hintsEl.innerHTML = '';
-    messages.forEach(message=>{
-      hintsEl.insertAdjacentHTML('beforeend', message+'<br>');
-    })
+    messages.forEach(addHint)
+    var obj = await fetch('https://www.webcomponents.org/api/search/'+value+'-%20kind:element?limit=6&count').then(res=>res.json());
+    console.log(obj)
   }
 
 </script>

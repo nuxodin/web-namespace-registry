@@ -3,8 +3,17 @@ A registry for namespaces for custom elements, data attributes, custom attribute
 
 ## Check if a namespace is used
 [check here](
-  https://rawcdn.githack.com/nuxodin/web-namespace-registry/b8dc6a3034af5fe6f4a9d5c6163d407e3be2d2e8/web/index.html
+  https://rawcdn.githack.com/nuxodin/web-namespace-registry/da3a5f8035bfbd6618e4678d5017cdfa28171496/web/index.html
 )
 
 ## Add your own framework
 Make a fork, extend registry.v1.json and make a pull request.
+
+## Project-specific namespace?
+Can we agree on a project-specific namespace?  
+This should not be used for frameworks, so it can be used in a project without hesitation.  
+So far I have always used "cd", (customer data) but maybe another one is more suitable.  
+- c (customer)
+- p (project)
+- ps (project specific)
+What is your opinion?

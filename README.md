@@ -9,7 +9,7 @@ So that collisions do not occur.
 
 ## Add your own framework
 Make a fork, extend registry.v1.json and make a pull request.  
-"Affected" means:
+"affected:['ce',...]" means:
 - ce = custom elements `<x-box>`
 - ca = custom attributes `<div x-color=red>` (non standard)
 - data-a = data attributes `<div data-x-color=red>`

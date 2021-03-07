@@ -31,8 +31,10 @@
         <small style="font-weight:normal;">All technologies</small>
       </div>
     </label>
-</div>
+  </div>
 </form>
+    
+<div id=hintsEl></div>
 
 <br>
 
@@ -74,6 +76,7 @@
     }
   }
   searchEl.addEventListener('input',function(){
+    hints(this.search.value);
     write({
       search:this.search.value,
       tec:this.tec.value,
@@ -119,6 +122,19 @@
         </label>`;
     tecFilter.insertAdjacentHTML('beforeend', html);
   }
+
+  /* hints */
+  function hints(value){
+    const messages = [];
+    if (value in window) {
+      messages.push(`there is a property "${value}" in the global window object`)
+    }
+    hintsEl.innerHTML = '':
+    messages.forEach(message=>{
+      tecFilter.insertAdjacentHTML('beforeend', message);
+    })
+  }
+
 </script>
 
 

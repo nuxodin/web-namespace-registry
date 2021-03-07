@@ -34,7 +34,7 @@
   </div>
 </form>
     
-<div id=hintsEl></div>
+<p id=hintsEl></p>
 
 <br>
 
@@ -126,12 +126,10 @@
   /* hints */
   function hints(value){
     const messages = [];
-    if (value in window) {
-      messages.push(`there is a property "${value}" in the global window object`)
-    }
+    if (value in window) messages.push(`there is a property "${value}" in the global window object`)
     hintsEl.innerHTML = '';
     messages.forEach(message=>{
-      tecFilter.insertAdjacentHTML('beforeend', message);
+      hintsEl.insertAdjacentHTML('beforeend', message);
     })
   }
 

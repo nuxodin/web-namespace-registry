@@ -6,6 +6,13 @@
             "affected":["ce"]
         }
     ],
+    "amp": [
+        {
+            "name":"AMP - Accelerated Mobile Pages",
+            "url":"https://github.com/ampproject",
+            "affected":["ce"]
+        }
+    ],
     "spectrum": [
         {
             "name":"Spectrum Web Components by Adobe",
@@ -76,11 +83,18 @@
             "affected":["ce","ca","css-cp"]
         }
     ],
+    "mwc":[
+        {
+            "name":"Material Web Components",
+            "url":"https://github.com/material-components/material-components-web-components",
+            "affected":["ce"]
+        }
+    ],
     "mdc":[
         {
             "name":"material-components",
             "url":"https://github.com/material-components/material-components-web",
-            "affected":["ce","css-cp"]
+            "affected":["css-cp"]
         }
     ],
     "mat":[

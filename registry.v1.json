@@ -1,4 +1,11 @@
 {
+    "auto": [
+        {
+            "name":"Auro Components by AlaskaAirlines",
+            "url":"https://github.com/AlaskaAirlines",
+            "affected":["ce", "css-cp"]
+        }
+    ],
     "ui5": [
         {
             "name":"UI5 by SAP",

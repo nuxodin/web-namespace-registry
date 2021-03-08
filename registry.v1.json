@@ -1,4 +1,11 @@
 {
+    "uk": [
+        {
+            "name":"UIkit",
+            "https://github.com/uikit/uikit",
+            "affected":["ca", "class"]
+        }
+    ],
     "auro": [
         {
             "name":"Auro Components by AlaskaAirlines",

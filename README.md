@@ -6,7 +6,7 @@ There can be multiple frameworks using the same namespace.
 
 ## Check if a namespace is used
 [check here](
-  https://rawcdn.githack.com/nuxodin/web-namespace-registry/ccc02d808dac6233c09dc8844f58f1ff2ef18421/web/index.html
+  https://rawcdn.githack.com/nuxodin/web-namespace-registry/b3bdc2fb27eda4f558e569bad0210153e4ea2c4d/web/index.html
 )
 
 ## Add your own framework

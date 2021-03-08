@@ -15,6 +15,7 @@ Make a fork, extend registry.v1.json and make a pull request.
 - ce = custom elements `<x-box>`
 - ca = custom attributes `<div x-color=red>` (non standard)
 - data-a = data attributes `<div data-x-color=red>`
+- class = class attributes `<div class="x-color">`
 - css-cp = css custom properties (css variables) `--x-color:red;` 
 
 ## A project-specific namespace?

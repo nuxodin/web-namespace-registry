@@ -1,4 +1,11 @@
 {
+    "pure": [
+        {
+            "name":"pure.css",
+            "url":"https://github.com/pure-css/pure",
+            "affected":["class"]
+        }
+    ],
     "uk": [
         {
             "name":"UIkit",

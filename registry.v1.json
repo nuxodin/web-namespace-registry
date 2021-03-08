@@ -13,6 +13,13 @@
             "affected":["ce"]
         }
     ],
+    "ng": [
+        {
+            "name":"AngularJS (old Angular)",
+            "url":"https://github.com/angular/angular.js",
+            "affected":["ce"]
+        }
+    ],
     "amp": [
         {
             "name":"AMP - Accelerated Mobile Pages",

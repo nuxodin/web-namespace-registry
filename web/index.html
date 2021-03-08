@@ -21,7 +21,7 @@
 <form id=searchEl style="display:flex; flex-wrap:wrap; gap:2rem; justify-content: space-between;">
   <label>
     Search: <input type=search name=search placeholder="namespace">
-    <p id=hintsEl style="color:#982c61; font-size:.8em; max-width:200px"></p>
+    <ul id=hintsEl style="color:#982c61; font-size:.8em; max-width:200px"></ul>
   </label>
   <div id=tecFilter>
     <label style="line-height:1.2">
@@ -124,13 +124,18 @@
 
   /* hints */
   function addHint(hint){
-      hintsEl.insertAdjacentHTML('beforeend', hint+'<br>');
+      hintsEl.insertAdjacentHTML('beforeend', '<li>'+hint+'</li><br>');
   }
 
+  let validateCE = function (){};
+  import('https://rawcdn.githack.com/mathiasbynens/mothereff.in/9cd5ec4649db25ae675aec25f428f3ddf3d9a087/custom-element-name/vendor/all.js').then(()=>{
+    validateCE = window.validate;
+    delete window.validate;
+  })
 
   let controller = false;
-
   async function hints(value){
+    if (!value) return;
     const messages = [];
     if (value in window) messages.push(`There is a property "${value}" in the global window object`)
     hintsEl.innerHTML = '';
@@ -146,8 +151,13 @@
       let url = 'https://www.webcomponents.org/search/%22%3C'+value+'-%22';
       addHint('<a href="'+url+'" target=_blank>There are '+obj.results.length+' Elements on</a> on webcomponents.org that probably uses this namespace');
     }
-    console.log(obj)
+
+    const issue = validateCE(value+'-x');
+    if (issue.message) addHint((issue.isValid?'Warning':'Error') + ': '+issue.message);
   }
+
+
+
 
 </script>
 

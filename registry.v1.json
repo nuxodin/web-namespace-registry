@@ -1,4 +1,11 @@
 {
+    "mdl": [
+        {
+            "name":"Material Design Lite",
+            "url":"https://github.com/google/material-design-lite",
+            "affected":["class"]
+        }
+    ],
     "mui": [
         {
             "name":"MUI – Material Design CSS Framework",

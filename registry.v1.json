@@ -157,7 +157,7 @@
         {
             "name":"Mavo",
             "url":"https://github.com/mavoweb/mavo",
-            "affected":["ca"]
+            "affected":["ca","class","css-cp"]
         }
     ],
     "iron":[

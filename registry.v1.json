@@ -2,7 +2,7 @@
     "uk": [
         {
             "name":"UIkit",
-            "https://github.com/uikit/uikit",
+            "url":"https://github.com/uikit/uikit",
             "affected":["ca", "class"]
         }
     ],

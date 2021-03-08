@@ -1,4 +1,11 @@
 {
+    "mui": [
+        {
+            "name":"MUI – Material Design CSS Framework",
+            "url":"https://github.com/muicss/mui",
+            "affected":["ce","class"]
+        }
+    ],
     "pure": [
         {
             "name":"pure.css",

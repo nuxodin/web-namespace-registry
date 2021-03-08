@@ -1,6 +1,8 @@
 # Web Namespace Registry
 A registry for namespaces for custom elements, data attributes, custom attributes and css properties.   
-So that collisions do not occur.
+
+This registry is not meant to reserve a namespace for yourself, rather to see which framework your framework might collide with.
+There can be multiple frameworks using the same namespace.
 
 ## Check if a namespace is used
 [check here](

@@ -166,5 +166,12 @@
             "url":"https://www.w3.org/TR/wai-aria-1.1/",
             "affected":["ca"]
         }
+    ],
+    "dile": [
+        {
+            "name": "Dile Components",
+            "url": "https://github.com/Polydile/dile-components",
+            "affected": ["ce"]
+        }
     ]
 }

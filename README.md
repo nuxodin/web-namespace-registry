@@ -9,7 +9,20 @@ There can be multiple frameworks using the same namespace.
 
 ## Add your own framework
 Make a fork, extend registry.v1.json and make a pull request.  
-"affected:['ce',...]" means:
+Extend it like this:
+```json
+    ...
+    "myns": [
+        {
+            "name":"Name of your Framework",
+            "url":"https://github.com/xxx/xxx",
+            "affected":["ce","class"]
+        }
+    ],
+    ...
+```
+url: Preferably a repository or project home on github  
+affected means:  
 - ce = custom elements `<x-box>`
 - ca = custom attributes `<div x-color=red>` (non standard)
 - data-a = data attributes `<div data-x-color=red>`

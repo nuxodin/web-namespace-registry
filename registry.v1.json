@@ -199,7 +199,7 @@
         {
             "name": "Dile Components",
             "url": "https://github.com/Polydile/dile-components",
-            "affected": ["ce"]
+            "affected": ["ce", "css-cp"]
         }
     ]
 }

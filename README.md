@@ -1,5 +1,5 @@
 # Web Namespace Registry
-webnamespaces.org - A namespaces registry for things like custom elements, classes and css properties.  
+A namespaces registry for things like custom elements, classes and css properties.  
 There can be multiple frameworks using the same namespace.
 
 ## Check if a namespace is used

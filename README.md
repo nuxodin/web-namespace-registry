@@ -4,7 +4,7 @@ There can be multiple frameworks using the same namespace.
 
 ## Check if a namespace is used
 [check here](
-  https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html
+  https://webnamespaces.org
 )
 
 ## Add your own framework

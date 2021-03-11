@@ -29,6 +29,10 @@ affected means:
 - class = class attributes `<div class="x-color">`
 - css-cp = css custom properties (css variables) `--x-color:red;` 
 
+### Add a badge
+[![Registred on webnamespaces.org](https://webnamespaces.org/badge.svg?namespace=x)](https://webnamespaces.org)
+
+
 ## Contribute
 
 ### Discussion: A project-specific namespace?

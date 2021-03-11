@@ -1,9 +1,9 @@
 # Web Namespace Registry
-A namespaces registry for things like custom elements, classes and css properties.  
+webnamespaces.org - A namespaces registry for things like custom elements, classes and css properties.  
 There can be multiple frameworks using the same namespace.
 
 ## Check if a namespace is used
-[check here](
+Chech a namespace on [webnamespaces.org](
   https://webnamespaces.org
 )
 

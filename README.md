@@ -30,7 +30,10 @@ affected means:
 - css-cp = css custom properties (css variables) `--x-color:red;` 
 
 ### Add a badge
-[![Registred on webnamespaces.org](https://webnamespaces.org/badge.php?namespace=x)](https://webnamespaces.org)
+[![Registred on webnamespaces.org](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=x)](https://webnamespaces.org)
+```
+[![Registred on webnamespaces.org](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=yournamespace)](https://webnamespaces.org)
+```
 
 
 ## Contribute

@@ -201,5 +201,12 @@
             "url": "https://github.com/Polydile/dile-components",
             "affected": ["ce", "css-cp"]
         }
+    ],
+    "lion": [
+        {
+            "name": "Lion Components",
+            "url": "https://github.com/ing-bank/lion",
+            "affected": ["ce"]
+        }
     ]
 }

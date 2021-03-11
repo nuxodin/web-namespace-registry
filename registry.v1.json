@@ -1,4 +1,18 @@
 {
+    "a11y": [
+        {
+            "name":"lrnwebcomponents",
+            "url":"https://github.com/elmsln/lrnwebcomponents",
+            "affected":["ce", "css-cp"]
+        }
+    ],
+    "lrn": [
+        {
+            "name":"lrnwebcomponents",
+            "url":"https://github.com/elmsln/lrnwebcomponents",
+            "affected":["ce", "css-cp"]
+        }
+    ],
     "mdl": [
         {
             "name":"Material Design Lite",

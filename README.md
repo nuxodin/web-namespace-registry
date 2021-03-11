@@ -3,7 +3,7 @@ A namespaces registry for things like custom elements, classes and css propertie
 There can be multiple frameworks using the same namespace.
 
 ## Check if a namespace is used
-Chech a namespace on [webnamespaces.org](
+Check a namespace on [webnamespaces.org](
   https://webnamespaces.org
 )
 

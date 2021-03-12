@@ -1,4 +1,11 @@
 {
+    "lume": [
+        {
+            "name": "LUME",
+            "url": "https://github.com/lume/lume",
+            "affected": "ce",
+        }
+    ],
     "a11y": [
         {
             "name":"lrnwebcomponents",

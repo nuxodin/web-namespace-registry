@@ -6,6 +6,13 @@
             "affected": "ce",
         }
     ],
+    "three": [
+        {
+            "name": "three-elements",
+            "url": "https://github.com/hmans/three-elements",
+            "affected": "ce",
+        }
+    ],
     "a11y": [
         {
             "name":"lrnwebcomponents",

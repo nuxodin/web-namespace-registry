@@ -1,4 +1,25 @@
 {
+    "lume": [
+        {
+            "name": "LUME",
+            "url": "https://github.com/lume/lume",
+            "affected": "ce",
+        }
+    ],
+    "three": [
+        {
+            "name": "three-elements",
+            "url": "https://github.com/hmans/three-elements",
+            "affected": "ce",
+        }
+    ],
+    "fast": [
+        {
+            "name": "fast",
+            "url": "https://github.com/microsoft/fast",
+            "affected": "ce",
+        }
+    ],
     "a11y": [
         {
             "name":"lrnwebcomponents",

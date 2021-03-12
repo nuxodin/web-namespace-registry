@@ -13,6 +13,13 @@
             "affected": "ce",
         }
     ],
+    "fast": [
+        {
+            "name": "fast",
+            "url": "https://github.com/microsoft/fast",
+            "affected": "ce",
+        }
+    ],
     "a11y": [
         {
             "name":"lrnwebcomponents",

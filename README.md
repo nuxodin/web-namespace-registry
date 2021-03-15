@@ -2,7 +2,7 @@
 Welcome to the web namespaces registry.  
 
 The goal of this project:  
-If someone is planning to develop a web framework, they can check to see if there might be a name conflict with another framework.
+If someone is planning to develop a web framework, they can check to see if there might be a naming conflict with another framework.
 
 ## Check if a namespace is used
 Check a namespace on [webnamespaces.org](

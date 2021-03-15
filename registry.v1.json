@@ -1,4 +1,11 @@
 {
+    "vaadin": [
+        {
+            "name": "Vaadin components",
+            "url": "https://github.com/vaadin/vaadin",
+            "affected": ["ce"]
+        }
+    ],
     "lume": [
         {
             "name": "LUME",

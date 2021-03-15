@@ -1,5 +1,5 @@
 # Web Namespace Registry
-Welcome to the namespaces registry.  
+Welcome to the web namespaces registry.  
 
 The goal of this project:  
 If someone is planning to develop a web framework, they can check to see if there might be a name conflict with another framework.

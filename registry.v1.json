@@ -250,5 +250,19 @@
             "url": "https://github.com/ing-bank/lion",
             "affected": ["ce"]
         }
+    ],
+    "bx": [
+        {
+            "name": "Carbon Web Components",
+            "url": "https://github.com/carbon-design-system/carbon-web-components",
+            "affected": ["ce"]
+        }
+    ],
+    "dds": [
+        {
+            "name": "Carbon for IBM.com Web Components",
+            "url": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/web-components",
+            "affected": ["ce"]
+        }
     ]
 }

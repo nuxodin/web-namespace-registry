@@ -1,6 +1,7 @@
 # Web Namespace Registry
-Welcome to the namespaces registry for things like custom elements, classes and css properties.  
-There can be multiple frameworks using the same namespace.
+Welcome to the namespaces registry.  
+The goal of this project:  
+If others are planning to develop a web framework, they can look to see if there might be a naming conflict with another framework.
 
 ## Check if a namespace is used
 Check a namespace on [webnamespaces.org](
@@ -28,6 +29,9 @@ affected means:
 - data-a = data attributes `<div data-x-color=red>`
 - class = class attributes `<div class="x-color">`
 - css-cp = css custom properties (css variables) `--x-color:red;` 
+
+There can be multiple frameworks using the same namespace.  
+
 
 ### Add a badge
 [![Registred on webnamespaces.org](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=myns)](https://webnamespaces.org)

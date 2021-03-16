@@ -264,5 +264,12 @@
             "url": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/web-components",
             "affected": ["ce"]
         }
+    ],
+    "zoo": [
+        {
+            "name": "Zooplus Web Components",
+            "url": "https://github.com/zooplus/zoo-web-components",
+            "affected": ["ce"]
+        }
     ]
 }

@@ -1,4 +1,11 @@
 {
+    "ct": [
+        {
+            "name": "Conectate components",
+            "url": "https://github.com/conectate/ct-elements",
+            "affected": ["ce"]
+        }
+    ],
     "vaadin": [
         {
             "name": "Vaadin components",

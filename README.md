@@ -27,7 +27,6 @@ url: Preferably a repository or project home on github
 affected means:  
 - ce = custom elements `<x-box>`
 - ca = custom attributes `<div x-color=red>` (non standard)
-- data-a = data attributes `<div data-x-color=red>`
 - class = class attributes `<div class="x-color">`
 - css-cp = css custom properties (css variables) `--x-color:red;` 
 

@@ -1,4 +1,19 @@
 {
+    
+    "bulib": [
+        {
+            "name": "bulib-wc",
+            "url": "https://github.com/bulib/bulib-wc",
+            "affected": ["ce"]
+        }
+    ],
+    "wc": [
+        {
+            "name": "vanilla Web Components",
+            "url": "https://github.com/vanillawc/vanillawc",
+            "affected": ["ce"]
+        }
+    ],
     "sl": [
         {
             "name": "Shoelace",

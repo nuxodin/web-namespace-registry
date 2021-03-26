@@ -51,7 +51,7 @@
     .then(response=>response.json())
     .then(object=>{
       console.log(object);
-      const keys = Object.keys(object).sort((a,b)=>b.length - a.length)
+      const keys = Object.keys(object).sort((a,b)=>a.length - b.length)
       var nObject = {};
       keys.forEach(key=>{
         nObject[key] = object[key];

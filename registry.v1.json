@@ -1,5 +1,11 @@
 {
-    
+    "p": [
+        {
+            "name": "reserved for project-specific things?",
+            "url": "https://github.com/nuxodin/web-namespace-registry/issues/1",
+            "affected": ["ce", "ca", "class", "css-cp", "event"]
+        }
+    ],
     "bulib": [
         {
             "name": "bulib-wc",

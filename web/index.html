@@ -46,17 +46,12 @@
 </table>
 
 <script type=module>
-  let registry = null;
+  let registry = {};
   fetch('../registry.v1.json')
     .then(response=>response.json())
     .then(object=>{
-      console.log(object);
-      const keys = Object.keys(object).sort((a,b)=>a.length - b.length)
-      var nObject = {};
-      keys.forEach(key=>{
-        nObject[key] = object[key];
-      })
-      registry = nObject;
+      const keys = Object.keys(object).sort((a,b)=>a.length - b.length) // order by key-length
+      keys.forEach(key=> registry[key] = object[key]);
     })
     .then(()=>write());
 

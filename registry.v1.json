@@ -1,4 +1,11 @@
 {
+    "sl": [
+        {
+            "name": "Shoelace",
+            "url": "https://github.com/shoelace-style/shoelace",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
     "oruga": [
         {
             "name": "Oruga UI",

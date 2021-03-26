@@ -42,16 +42,10 @@ Replace "myns" with your namespace.
 
 ## Contribute
 
-### Discussion: A project-specific namespace?
-Can we, the frontend community, agree on a project-specific namespace?  
-This should not be used for frameworks, so it can be used in a project without hesitation.  
-So far I have always used "cd", (customer data) but maybe another one is more suitable.  
+### Discussion
+Discuss the issues with us and create new ones
+https://github.com/nuxodin/web-namespace-registry/issues
 
-- c- (customer)
-- p- (project)
-- ps- (project specific)  
-
-What is your opinion?
 
 ### Help wanted
 Any help is welcome.  

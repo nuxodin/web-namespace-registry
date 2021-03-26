@@ -49,7 +49,15 @@
   let registry = null;
   fetch('../registry.v1.json')
     .then(response=>response.json())
-    .then(object=>registry=object)
+    .then(object=>{
+      console.log(object);
+      const keys = Object.keys(object).sort((a,b)=>b.length - a.length)
+      var nObject = {};
+      keys.forEach(key=>{
+        nObject[key] = object[key];
+      })
+      registry = nObject;
+    })
     .then(()=>write());
 
   function write(options){

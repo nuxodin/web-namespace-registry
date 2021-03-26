@@ -1,4 +1,18 @@
 {
+    "oruga": [
+        {
+            "name": "Oruga UI",
+            "url": "https://github.com/oruga-ui/oruga",
+            "affected": ["css-cp"]
+        }
+    ],
+    "o": [
+        {
+            "name": "Oruga UI",
+            "url": "https://github.com/oruga-ui/oruga",
+            "affected": ["class"]
+        }
+    ],
     "ct": [
         {
             "name": "Conectate components",

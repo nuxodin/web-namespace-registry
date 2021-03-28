@@ -1,4 +1,19 @@
 {
+    
+    "usa": [
+        {
+            "name": "United States Web Design System",
+            "url": "https://github.com/uswds/uswds",
+            "affected": ["class"]
+        }
+    ],
+    "ray": [
+        {
+            "name": "Ray – WeWork Design System",
+            "url": "https://github.com/wework/ray",
+            "affected": ["class", "css-cp"]
+        }
+    ],
     "p": [
         {
             "name": "reserved for project-specific things?",

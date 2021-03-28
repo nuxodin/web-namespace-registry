@@ -1,5 +1,11 @@
 {
-    
+    "duet": [
+        {
+            "name": "Duet Design System",
+            "url": "https://github.com/duetds",
+            "affected": ["ce", "class"]
+        }
+    ],
     "usa": [
         {
             "name": "United States Web Design System",

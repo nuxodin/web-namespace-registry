@@ -3,7 +3,7 @@
         {
             "name": "Duet Design System",
             "url": "https://github.com/duetds",
-            "affected": ["ce", "class"]
+            "affected": ["ce", "class", "event"]
         }
     ],
     "usa": [

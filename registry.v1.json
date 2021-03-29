@@ -341,5 +341,12 @@
             "url": "https://github.com/zooplus/zoo-web-components",
             "affected": ["ce"]
         }
+    ],
+    "pf": [
+        {
+            "name": "PatternFly Design System",
+            "url": "https://patternfly.org",
+            "affected": ["class", "css-cp"]
+        }
     ]
 }

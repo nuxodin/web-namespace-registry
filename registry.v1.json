@@ -1,4 +1,11 @@
 {
+    "au": [
+        {
+            "name": "Australian Government Design System Components",
+            "url": "https://github.com/govau/design-system-components/",
+            "affected": ["class"]
+        }
+    ],
     "duet": [
         {
             "name": "Duet Design System",

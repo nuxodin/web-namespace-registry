@@ -1,4 +1,11 @@
 {
+    "po": [
+        {
+            "name": "PO UI",
+            "url": "https://github.com/po-ui",
+            "affected": ["ce", "class"]
+        }
+    ],
     "aui": [
         {
             "name": "Audi UI",

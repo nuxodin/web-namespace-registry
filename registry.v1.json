@@ -1,4 +1,11 @@
 {
+    "ms": [
+        {
+            "name": "Fluent UI - Microsoft",
+            "url": "https://github.com/microsoft/fluentui",
+            "affected": ["class"]
+        }
+    ],
     "po": [
         {
             "name": "PO UI",

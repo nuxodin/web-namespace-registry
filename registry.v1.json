@@ -1,4 +1,11 @@
 {
+    "aui": [
+        {
+            "name": "Audi UI",
+            "url": "https://github.com/audi/audi-ui",
+            "affected": ["class", "ca"]
+        }
+    ],
     "au": [
         {
             "name": "Australian Government Design System Components",

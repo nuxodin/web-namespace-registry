@@ -1,4 +1,26 @@
 {
+    
+    "wired": [
+        {
+            "name": "wired-elements",
+            "url": "https://github.com/rough-stuff/wired-elements",
+            "affected": ["ce"]
+        }
+    ],
+    "generic": [
+        {
+            "name": "generic-components",
+            "url": "https://github.com/thepassle/generic-components",
+            "affected": ["ce"]
+        }
+    ],
+    "howto": [
+        {
+            "name": "HowTo: Components",
+            "url": "https://github.com/GoogleChromeLabs/howto-components",
+            "affected": ["ce"]
+        }
+    ],
     "ms": [
         {
             "name": "Fluent UI - Microsoft",
@@ -88,6 +110,11 @@
             "name": "Oruga UI",
             "url": "https://github.com/oruga-ui/oruga",
             "affected": ["class"]
+        },
+        {
+            "name": "Omi - Front End Framework",
+            "url": "https://github.com/Tencent/omi",
+            "affected": ["ce"]
         }
     ],
     "ct": [

@@ -1,5 +1,61 @@
 {
     
+    "ne": [
+        {
+            "name": "NE - Native Elements",
+            "url": "https://github.com/n-elements/core",
+            "affected": ["ca", "css-cp"]
+        }
+    ],
+    "wl": [
+        {
+            "name": "Weightless Components",
+            "url": "https://github.com/andreasbm/weightless",
+            "affected": ["ce"]
+        }
+    ],
+    "io": [
+        {
+            "name": "IoGui",
+            "url": "https://github.com/io-gui/iogui",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
+    "r": [
+        {
+            "name": "Curvenote Components",
+            "url": "https://github.com/curvenote/components",
+            "affected": ["ce"]
+        }
+    ],
+    "fw": [
+        {
+            "name": "Freshworks Crayons",
+            "url": "https://github.com/freshworks/crayons",
+            "affected": ["ce"]
+        }
+    ],
+    "cc": [
+        {
+            "name": "Clever Cloud Components",
+            "url": "https://github.com/CleverCloud/clever-components",
+            "affected": ["ce"]
+        }
+    ],
+    "bolt": [
+        {
+            "name": "Bolt Design System ",
+            "url": "https://github.com/boltdesignsystem/bolt",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
+    "elix": [
+        {
+            "name": "Elix",
+            "url": "https://github.com/elix/elix",
+            "affected": ["ce"]
+        }
+    ],
     "wired": [
         {
             "name": "wired-elements",

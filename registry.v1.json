@@ -1,5 +1,12 @@
 {
     
+    "oui": [
+        {
+            "name": "Open UI",
+            "url": "https://github.com/WICG/open-ui",
+            "affected": ["ce"]
+        }
+    ],
     "ne": [
         {
             "name": "NE - Native Elements",

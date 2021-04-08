@@ -1,5 +1,12 @@
 {
     
+    "calcite": [
+        {
+            "name": "Calcite Components",
+            "url": "https://github.com/Esri/calcite-components/",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
     "oui": [
         {
             "name": "Open UI",

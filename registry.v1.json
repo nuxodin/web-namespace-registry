@@ -20,7 +20,7 @@
             "url": "https://github.com/nent/nent",
             "affected": ["ce", "ca", "css-cp"]
         }
-    ]
+    ],
     "ne": [
         {
             "name": "NE - Native Elements",

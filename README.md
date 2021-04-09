@@ -24,11 +24,14 @@ Extend it like this:
     ...
 ```
 url: Preferably a repository or project home on github  
+
 affected means:  
 - ce = custom elements `<x-box>`
 - ca = custom attributes `<div x-color=red>` (non standard)
 - class = class attributes `<div class="x-color">`
-- css-cp = css custom properties (css variables) `--x-color:red;` 
+- css-cp = css custom properties (css variables) `--x-color:red;`   
+
+**_NOTE:_** Please specify only technologies that you actually use, not those that are planned.
 
 There can be multiple frameworks using the same namespace.  
 

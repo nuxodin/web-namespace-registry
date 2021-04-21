@@ -1,5 +1,11 @@
 {
-    
+    "cds": [
+        {
+            "name": "Clarity Design System",
+            "url": "https://github.com/vmware/clarity",
+            "affected": ["ce"]
+        }
+    ],
     "calcite": [
         {
             "name": "Calcite Components",

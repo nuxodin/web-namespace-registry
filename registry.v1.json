@@ -1,4 +1,11 @@
 {
+    "tw": [
+        {
+            "name": "tailwind css",
+            "url": "https://github.com/tailwindlabs/tailwindcss",
+            "affected": ["css-cp"]
+        }
+    ],
     "sprk": [
         {
             "name": "Spark Design System",

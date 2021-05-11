@@ -1,4 +1,11 @@
 {
+    "sprk": [
+        {
+            "name": "Spark Design System",
+            "url": "https://github.com/sparkdesignsystem/spark-design-system",
+            "affected": ["class"]
+        }
+    ],
     "cds": [
         {
             "name": "Clarity Design System",

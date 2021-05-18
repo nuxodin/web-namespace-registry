@@ -1,4 +1,11 @@
 {
+    "dt": [
+        {
+            "name": "Barista design system",
+            "url": "https://github.com/dynatrace-oss/barista",
+            "affected": ["ce", "ca", "css-cp", "class"]
+        }
+    ],
     "nb": [
         {
             "name": "Nebular",

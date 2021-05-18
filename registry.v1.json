@@ -1,4 +1,11 @@
 {
+    "nb": [
+        {
+            "name": "Nebular",
+            "url": "https://github.com/akveo/nebular",
+            "affected": ["ce", "class"]
+        }
+    ],
     "tw": [
         {
             "name": "tailwind css",

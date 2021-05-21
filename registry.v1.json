@@ -1,4 +1,11 @@
 {
+    "kor": [
+        {
+            "name": "Kor Design System",
+            "url": "https://github.com/kor-ui/kor",
+            "affected": ["ce"]
+        }
+    ],
     "hx": [
         {
             "name": "HelixUI Web Components",

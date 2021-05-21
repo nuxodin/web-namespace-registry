@@ -1,4 +1,11 @@
 {
+    "hx": [
+        {
+            "name": "HelixUI Web Components",
+            "url": "https://github.com/HelixDesignSystem/helix-ui",
+            "affected": ["ce"]
+        }
+    ],
     "dt": [
         {
             "name": "Barista design system",

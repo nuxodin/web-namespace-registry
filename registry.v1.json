@@ -3,7 +3,14 @@
         {
             "name": "U1 Design-System",
             "url": "https://github.com/u1ui",
-            "affected": ["ce", "class"]
+            "affected": ["ce", "ca", "class"]
+        }
+    ],
+    "w3": [
+        {
+            "name": "W3-CSS",
+            "url": "https://github.com/vitorlans/w3-css",
+            "affected": ["class"]
         }
     ],
     "kor": [

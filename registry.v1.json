@@ -1,4 +1,11 @@
 {
+    "u1": [
+        {
+            "name": "U1 Design-System",
+            "url": "https://github.com/u1ui",
+            "affected": ["ce", "class"]
+        }
+    ],
     "kor": [
         {
             "name": "Kor Design System",

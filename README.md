@@ -9,7 +9,7 @@ Check a namespace on [webnamespaces.org](
   https://webnamespaces.org
 )
 
-## Add your own framework
+## Add your framework
 Make a fork, extend registry.v1.json and make a pull request.  
 Extend it like this:
 ```json

@@ -542,5 +542,12 @@
             "url": "https://patternfly.org",
             "affected": ["class", "css-cp"]
         }
+    ],
+    "myns": [
+        {
+            "name":"Vivid for Vonage.inc UI toolbelt (Web Components)",
+            "url":"https://github.com/vonage/vivid",
+            "affected":["ce"]
+        }
     ]
 }

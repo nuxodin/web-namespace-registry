@@ -543,9 +543,9 @@
             "affected": ["class", "css-cp"]
         }
     ],
-    "myns": [
+    "vwc": [
         {
-            "name":"Vivid for Vonage.inc UI toolbelt (Web Components)",
+            "name":"Vivid UI",
             "url":"https://github.com/vonage/vivid",
             "affected":["ce"]
         }

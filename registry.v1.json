@@ -549,5 +549,12 @@
             "url":"https://github.com/vonage/vivid",
             "affected":["ce"]
         }
+    ],
+    "bal": [
+        {
+            "name":"Baloise Design System",
+            "url":"https://design.baloise.dev",
+            "affected":["ce", "class", "css-cp"]
+        }
     ]
 }

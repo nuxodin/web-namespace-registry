@@ -556,5 +556,12 @@
             "url":"https://design.baloise.dev",
             "affected":["ce", "class", "css-cp"]
         }
+    ],
+    "slds": [
+        {
+            "name":"Salesforce Lightning Design System",
+            "url":"https://github.com/salesforce-ux/design-system",
+            "affected":["class"]
+        }
     ]
 }

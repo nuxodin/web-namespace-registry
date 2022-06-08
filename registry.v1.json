@@ -1,4 +1,11 @@
 {
+    "axa": [
+        {
+            "name": "AXA Pattern Library",
+            "url": "https://github.com/axa-ch-webhub-cloud/pattern-library",
+            "affected": ["ce"]
+        }
+    ],
     "b": [
         {
             "name": "Blackstone UI",

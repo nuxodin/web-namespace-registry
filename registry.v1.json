@@ -1,4 +1,18 @@
 {
+    "b": [
+        {
+            "name": "Blackstone UI",
+            "url": "https://github.com/kjantzer/bui",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
+    "gux": [
+        {
+            "name": "Spark Web Components",
+            "url": "https://github.com/MyPureCloud/genesys-webcomponents",
+            "affected": ["ce", "class", "css-cp"]
+        }
+    ],
     "u1": [
         {
             "name": "U1 Design-System",
@@ -48,6 +62,13 @@
             "affected": ["css-cp"]
         }
     ],
+    "slds": [
+        {
+            "name": "Salesforce Lightning Design System",
+            "url": "https://github.com/salesforce-ux/design-system",
+            "affected": ["class"]
+        }
+    ],
     "sprk": [
         {
             "name": "Spark Design System",
@@ -74,6 +95,13 @@
             "name": "Open UI",
             "url": "https://github.com/WICG/open-ui",
             "affected": ["ce"]
+        }
+    ],
+    "md": [
+        {
+            "name": "Momentum Design",
+            "url": "https://github.com/momentum-design",
+            "affected": ["class"]
         }
     ],
     "n": [
@@ -555,13 +583,6 @@
             "name":"Baloise Design System",
             "url":"https://design.baloise.dev",
             "affected":["ce", "class", "css-cp"]
-        }
-    ],
-    "slds": [
-        {
-            "name":"Salesforce Lightning Design System",
-            "url":"https://github.com/salesforce-ux/design-system",
-            "affected":["class"]
         }
     ]
 }

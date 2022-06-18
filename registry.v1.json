@@ -86,8 +86,13 @@
     "cds": [
         {
             "name": "Clarity Design System",
-            "url": "https://github.com/vmware/clarity",
-            "affected": ["ce"]
+            "url": "https://github.com/vmware-clarity/core",
+            "affected": ["ce", "ca", "css-cp"]
+        },
+        {
+            "name": "Carbon Design System",
+            "url": "https://github.com/carbon-design-system/carbon",
+            "affected": ["class", "css-cp"]
         }
     ],
     "calcite": [

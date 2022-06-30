@@ -583,6 +583,13 @@
             "affected": ["class", "css-cp"]
         }
     ],
+    "v": [
+        {
+            "name":"Vuetify",
+            "url":"https://github.com/vuetifyjs/vuetify",
+            "affected":["class"]
+        }
+    ],
     "vwc": [
         {
             "name":"Vivid UI",

@@ -162,7 +162,7 @@
         {
             "name": "Clever Cloud Components",
             "url": "https://github.com/CleverCloud/clever-components",
-            "affected": ["ce"]
+            "affected": ["ce", "css-cp"]
         }
     ],
     "bolt": [

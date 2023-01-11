@@ -17,7 +17,7 @@
         {
             "name": "Blueprint UI",
             "url": "https://github.com/blueprintui/blueprintui",
-            "affected": ["ce", "css-cp"]
+            "affected": ["ce", "ca", "css-cp"]
         }
     ],
     "gux": [

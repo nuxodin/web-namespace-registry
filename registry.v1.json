@@ -13,6 +13,13 @@
             "affected": ["ce", "css-cp"]
         }
     ],
+    "bp": [
+        {
+            "name": "Blueprint UI",
+            "url": "https://github.com/blueprintui/blueprintui",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
     "gux": [
         {
             "name": "Spark Web Components",

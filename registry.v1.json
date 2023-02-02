@@ -1,4 +1,11 @@
 {
+    "apollo": [
+        {
+            "name": "Apollo Elements",
+            "url": "https://github.com/apollo-elements/apollo-elements",
+            "affected": ["ce"]
+        }
+    ],
     "axa": [
         {
             "name": "AXA Pattern Library",

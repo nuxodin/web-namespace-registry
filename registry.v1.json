@@ -123,6 +123,13 @@
             "affected": ["ce"]
         }
     ],
+    "oj": [
+        {
+            "name": "Oracle JET",
+            "url": "https://github.com/oracle/oraclejet",
+            "affected": ["ce", "ca", "css-cp", "class"]
+        }
+    ],
     "md": [
         {
             "name": "Momentum Design",

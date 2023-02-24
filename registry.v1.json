@@ -165,6 +165,20 @@
             "affected": ["ce", "css-cp"]
         }
     ],
+    "ig": [
+        {
+            "name": "Ignite UI",
+            "url": "https://github.com/IgniteUI/igniteui-webcomponents",
+            "affected": ["css-cp"]
+        }
+    ],
+    "igc": [
+        {
+            "name": "Ignite UI",
+            "url": "https://github.com/IgniteUI/igniteui-webcomponents",
+            "affected": ["ce"]
+        }
+    ],
     "r": [
         {
             "name": "Curvenote Components",

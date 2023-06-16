@@ -1,9 +1,37 @@
 {
+    "a11y": [
+        {
+            "name":"lrnwebcomponents",
+            "url":"https://github.com/elmsln/lrnwebcomponents",
+            "affected":["ce", "css-cp"]
+        }
+    ],
     "apollo": [
         {
             "name": "Apollo Elements",
             "url": "https://github.com/apollo-elements/apollo-elements",
             "affected": ["ce"]
+        }
+    ],
+    "amp": [
+        {
+            "name":"AMP - Accelerated Mobile Pages",
+            "url":"https://github.com/ampproject",
+            "affected":["ce"]
+        }
+    ],
+    "aui": [
+        {
+            "name": "Audi UI",
+            "url": "https://github.com/audi/audi-ui",
+            "affected": ["class", "ca"]
+        }
+    ],
+    "au": [
+        {
+            "name": "Australian Government Design System Components",
+            "url": "https://github.com/govau/design-system-components/",
+            "affected": ["class"]
         }
     ],
     "axa": [
@@ -27,6 +55,13 @@
             "affected": ["ce", "ca", "css-cp"]
         }
     ],
+    "dt": [
+        {
+            "name": "Barista design system",
+            "url": "https://github.com/dynatrace-oss/barista",
+            "affected": ["ce", "ca", "css-cp", "class"]
+        }
+    ],
     "gux": [
         {
             "name": "Spark Web Components",
@@ -41,13 +76,6 @@
             "affected": ["ce", "ca", "class", "css-cp"]
         }
     ],
-    "w3": [
-        {
-            "name": "W3-CSS",
-            "url": "https://github.com/vitorlans/w3-css",
-            "affected": ["class"]
-        }
-    ],
     "kor": [
         {
             "name": "Kor Design System",
@@ -60,13 +88,10 @@
             "name": "HelixUI Web Components",
             "url": "https://github.com/HelixDesignSystem/helix-ui",
             "affected": ["ce"]
-        }
-    ],
-    "dt": [
-        {
-            "name": "Barista design system",
-            "url": "https://github.com/dynatrace-oss/barista",
-            "affected": ["ce", "ca", "css-cp", "class"]
+        },{
+            "name": "htmx",
+            "url": "https://github.com/bigskysoftware/htmx",
+            "affected": ["ca"]
         }
     ],
     "nb": [
@@ -249,20 +274,6 @@
             "affected": ["ce", "class"]
         }
     ],
-    "aui": [
-        {
-            "name": "Audi UI",
-            "url": "https://github.com/audi/audi-ui",
-            "affected": ["class", "ca"]
-        }
-    ],
-    "au": [
-        {
-            "name": "Australian Government Design System Components",
-            "url": "https://github.com/govau/design-system-components/",
-            "affected": ["class"]
-        }
-    ],
     "duet": [
         {
             "name": "Duet Design System",
@@ -366,13 +377,6 @@
             "affected": ["ce"]
         }
     ],
-    "a11y": [
-        {
-            "name":"lrnwebcomponents",
-            "url":"https://github.com/elmsln/lrnwebcomponents",
-            "affected":["ce", "css-cp"]
-        }
-    ],
     "lrn": [
         {
             "name":"lrnwebcomponents",
@@ -436,11 +440,11 @@
             "affected":["ce"]
         }
     ],
-    "amp": [
+    "w3": [
         {
-            "name":"AMP - Accelerated Mobile Pages",
-            "url":"https://github.com/ampproject",
-            "affected":["ce"]
+            "name": "W3-CSS",
+            "url": "https://github.com/vitorlans/w3-css",
+            "affected": ["class"]
         }
     ],
     "spectrum": [

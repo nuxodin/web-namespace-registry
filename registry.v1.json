@@ -1,4 +1,11 @@
 {
+    "a": [
+        {
+            "name":"A-Frame",
+            "url":"https://github.com/aframevr/aframe/",
+            "affected":["ce"]
+        }
+    ],
     "a11y": [
         {
             "name":"lrnwebcomponents",
@@ -34,6 +41,13 @@
             "affected": ["class"]
         }
     ],
+    "auro": [
+        {
+            "name":"Auro Components by AlaskaAirlines",
+            "url":"https://github.com/AlaskaAirlines",
+            "affected":["ce", "css-cp"]
+        }
+    ],
     "axa": [
         {
             "name": "AXA Pattern Library",
@@ -41,10 +55,31 @@
             "affected": ["ce"]
         }
     ],
+    "aria":[
+        {
+            "name":"Aria-Attributes are used by W3C",
+            "url":"https://www.w3.org/TR/wai-aria-1.1/",
+            "affected":["ca"]
+        }
+    ],
     "b": [
         {
             "name": "Blackstone UI",
             "url": "https://github.com/kjantzer/bui",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
+    "bal": [
+        {
+            "name":"Baloise Design System",
+            "url":"https://design.baloise.dev",
+            "affected":["ce", "class", "css-cp"]
+        }
+    ],
+    "bolt": [
+        {
+            "name": "Bolt Design System ",
+            "url": "https://github.com/boltdesignsystem/bolt",
             "affected": ["ce", "css-cp"]
         }
     ],
@@ -55,71 +90,18 @@
             "affected": ["ce", "ca", "css-cp"]
         }
     ],
-    "dt": [
+    "bx": [
         {
-            "name": "Barista design system",
-            "url": "https://github.com/dynatrace-oss/barista",
-            "affected": ["ce", "ca", "css-cp", "class"]
-        }
-    ],
-    "gux": [
-        {
-            "name": "Spark Web Components",
-            "url": "https://github.com/MyPureCloud/genesys-webcomponents",
-            "affected": ["ce", "class", "css-cp"]
-        }
-    ],
-    "u1": [
-        {
-            "name": "U1 Design-System",
-            "url": "https://github.com/u1ui",
-            "affected": ["ce", "ca", "class", "css-cp"]
-        }
-    ],
-    "kor": [
-        {
-            "name": "Kor Design System",
-            "url": "https://github.com/kor-ui/kor",
+            "name": "Carbon Web Components",
+            "url": "https://github.com/carbon-design-system/carbon-web-components",
             "affected": ["ce"]
         }
     ],
-    "hx": [
+    "cc": [
         {
-            "name": "HelixUI Web Components",
-            "url": "https://github.com/HelixDesignSystem/helix-ui",
-            "affected": ["ce"]
-        },{
-            "name": "htmx",
-            "url": "https://github.com/bigskysoftware/htmx",
-            "affected": ["ca"]
-        }
-    ],
-    "nb": [
-        {
-            "name": "Nebular",
-            "url": "https://github.com/akveo/nebular",
-            "affected": ["ce", "class"]
-        }
-    ],
-    "tw": [
-        {
-            "name": "tailwind css",
-            "url": "https://github.com/tailwindlabs/tailwindcss",
-            "affected": ["css-cp"]
-        }
-    ],
-    "slds": [
-        {
-            "name": "Salesforce Lightning Design System",
-            "url": "https://github.com/salesforce-ux/design-system",
-            "affected": ["class"]
-        }
-    ],
-    "sprk": [
-        {
-            "name": "Spark Design System",
-            "url": "https://github.com/sparkdesignsystem/spark-design-system",
-            "affected": ["class"]
+            "name": "Clever Cloud Components",
+            "url": "https://github.com/CleverCloud/clever-components",
+            "affected": ["ce", "css-cp"]
         }
     ],
     "cds": [
@@ -139,6 +121,150 @@
             "name": "Calcite Components",
             "url": "https://github.com/Esri/calcite-components/",
             "affected": ["ce", "css-cp"]
+        }
+    ],
+    "dds": [
+        {
+            "name": "Carbon for IBM.com Web Components",
+            "url": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/web-components",
+            "affected": ["ce"]
+        }
+    ],
+    "dile": [
+        {
+            "name": "Dile Components",
+            "url": "https://github.com/Polydile/dile-components",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
+    "dt": [
+        {
+            "name": "Barista design system",
+            "url": "https://github.com/dynatrace-oss/barista",
+            "affected": ["ce", "ca", "css-cp", "class"]
+        }
+    ],
+    "elix": [
+        {
+            "name": "Elix",
+            "url": "https://github.com/elix/elix",
+            "affected": ["ce"]
+        }
+    ],
+    "fast": [
+        {
+            "name": "fast",
+            "url": "https://github.com/microsoft/fast",
+            "affected": ["ce"]
+        }
+    ],
+    "generic": [
+        {
+            "name": "generic-components",
+            "url": "https://github.com/thepassle/generic-components",
+            "affected": ["ce"]
+        }
+    ],
+    "gold":[
+        {
+            "name":"PolymerElements",
+            "url":"https://github.com/PolymerElements",
+            "affected":["ce"]
+        }
+    ],
+    "google": [
+        {
+            "name":"Google Web Components",
+            "url":"https://github.com/GoogleWebComponents",
+            "affected":["ce"]
+        }
+    ],
+    "gux": [
+        {
+            "name": "Spark Web Components",
+            "url": "https://github.com/MyPureCloud/genesys-webcomponents",
+            "affected": ["ce", "class", "css-cp"]
+        }
+    ],
+    "howto": [
+        {
+            "name": "HowTo: Components",
+            "url": "https://github.com/GoogleChromeLabs/howto-components",
+            "affected": ["ce"]
+        }
+    ],
+    "hx": [
+        {
+            "name": "HelixUI Web Components",
+            "url": "https://github.com/HelixDesignSystem/helix-ui",
+            "affected": ["ce"]
+        },{
+            "name": "htmx",
+            "url": "https://github.com/bigskysoftware/htmx",
+            "affected": ["ca"]
+        }
+    ],
+    "ibm": [
+        {
+            "name":"IBM Research",
+            "url":"https://github.com/IBMResearch",
+            "affected":["ce"]
+        }
+    ],
+    "io": [
+        {
+            "name": "IoGui",
+            "url": "https://github.com/io-gui/iogui",
+            "affected": ["ce", "css-cp"]
+        }
+    ],
+    "ig": [
+        {
+            "name": "Ignite UI",
+            "url": "https://github.com/IgniteUI/igniteui-webcomponents",
+            "affected": ["css-cp"]
+        }
+    ],
+    "igc": [
+        {
+            "name": "Ignite UI",
+            "url": "https://github.com/IgniteUI/igniteui-webcomponents",
+            "affected": ["ce"]
+        }
+    ],
+    "kor": [
+        {
+            "name": "Kor Design System",
+            "url": "https://github.com/kor-ui/kor",
+            "affected": ["ce"]
+        }
+    ],
+    "nb": [
+        {
+            "name": "Nebular",
+            "url": "https://github.com/akveo/nebular",
+            "affected": ["ce", "class"]
+        }
+    ],
+    "slds": [
+        {
+            "name": "Salesforce Lightning Design System",
+            "url": "https://github.com/salesforce-ux/design-system",
+            "affected": ["class"]
+        }
+    ],
+    "sprk": [
+        {
+            "name": "Spark Design System",
+            "url": "https://github.com/sparkdesignsystem/spark-design-system",
+            "affected": ["class"]
+        }
+    ],
+    "tw": [
+        {
+            "name": "tailwind css",
+            "url": "https://github.com/tailwindlabs/tailwindcss",
+            "affected": ["css-cp"]
         }
     ],
     "oui": [
@@ -183,27 +309,6 @@
             "affected": ["ce"]
         }
     ],
-    "io": [
-        {
-            "name": "IoGui",
-            "url": "https://github.com/io-gui/iogui",
-            "affected": ["ce", "css-cp"]
-        }
-    ],
-    "ig": [
-        {
-            "name": "Ignite UI",
-            "url": "https://github.com/IgniteUI/igniteui-webcomponents",
-            "affected": ["css-cp"]
-        }
-    ],
-    "igc": [
-        {
-            "name": "Ignite UI",
-            "url": "https://github.com/IgniteUI/igniteui-webcomponents",
-            "affected": ["ce"]
-        }
-    ],
     "r": [
         {
             "name": "Curvenote Components",
@@ -218,45 +323,10 @@
             "affected": ["ce"]
         }
     ],
-    "cc": [
-        {
-            "name": "Clever Cloud Components",
-            "url": "https://github.com/CleverCloud/clever-components",
-            "affected": ["ce", "css-cp"]
-        }
-    ],
-    "bolt": [
-        {
-            "name": "Bolt Design System ",
-            "url": "https://github.com/boltdesignsystem/bolt",
-            "affected": ["ce", "css-cp"]
-        }
-    ],
-    "elix": [
-        {
-            "name": "Elix",
-            "url": "https://github.com/elix/elix",
-            "affected": ["ce"]
-        }
-    ],
     "wired": [
         {
             "name": "wired-elements",
             "url": "https://github.com/rough-stuff/wired-elements",
-            "affected": ["ce"]
-        }
-    ],
-    "generic": [
-        {
-            "name": "generic-components",
-            "url": "https://github.com/thepassle/generic-components",
-            "affected": ["ce"]
-        }
-    ],
-    "howto": [
-        {
-            "name": "HowTo: Components",
-            "url": "https://github.com/GoogleChromeLabs/howto-components",
             "affected": ["ce"]
         }
     ],
@@ -300,6 +370,10 @@
             "name": "reserved for project-specific things?",
             "url": "https://github.com/nuxodin/web-namespace-registry/issues/1",
             "affected": ["ce", "ca", "class", "css-cp", "event"]
+        },{
+            "name": "Porsche Design System",
+            "url": "https://github.com/porsche-design-system/porsche-design-system",
+            "affected": ["ce", "css-cp"]
         }
     ],
     "bulib": [
@@ -370,13 +444,6 @@
             "affected": ["ce"]
         }
     ],
-    "fast": [
-        {
-            "name": "fast",
-            "url": "https://github.com/microsoft/fast",
-            "affected": ["ce"]
-        }
-    ],
     "lrn": [
         {
             "name":"lrnwebcomponents",
@@ -412,13 +479,6 @@
             "affected":["ca", "class"]
         }
     ],
-    "auro": [
-        {
-            "name":"Auro Components by AlaskaAirlines",
-            "url":"https://github.com/AlaskaAirlines",
-            "affected":["ce", "css-cp"]
-        }
-    ],
     "ui5": [
         {
             "name":"UI5 by SAP",
@@ -438,13 +498,6 @@
             "name":"AngularJS (old Angular)",
             "url":"https://github.com/angular/angular.js",
             "affected":["ce"]
-        }
-    ],
-    "w3": [
-        {
-            "name": "W3-CSS",
-            "url": "https://github.com/vitorlans/w3-css",
-            "affected": ["class"]
         }
     ],
     "spectrum": [
@@ -473,27 +526,6 @@
             "name":"HiQ - CSS framework",
             "url":"https://github.com/jonathanharrell/hiq",
             "affected":["css-cp"]
-        }
-    ],
-    "ibm": [
-        {
-            "name":"IBM Research",
-            "url":"https://github.com/IBMResearch",
-            "affected":["ce"]
-        }
-    ],
-    "google": [
-        {
-            "name":"Google Web Components",
-            "url":"https://github.com/GoogleWebComponents",
-            "affected":["ce"]
-        }
-    ],
-    "a": [
-        {
-            "name":"A-Frame",
-            "url":"https://github.com/aframevr/aframe/",
-            "affected":["ce"]
         }
     ],
     "tangy": [
@@ -559,13 +591,6 @@
             "affected":["ce"]
         }
     ],
-    "gold":[
-        {
-            "name":"PolymerElements",
-            "url":"https://github.com/PolymerElements",
-            "affected":["ce"]
-        }
-    ],
     "std":[
         {
             "name":"Is discussed as polyfillable standard elements",
@@ -573,38 +598,24 @@
             "affected":["ce"]
         }
     ],
-    "aria":[
+    "u1": [
         {
-            "name":"Aria-Attributes are used by W3C",
-            "url":"https://www.w3.org/TR/wai-aria-1.1/",
-            "affected":["ca"]
+            "name": "U1 Design-System",
+            "url": "https://github.com/u1ui",
+            "affected": ["ce", "ca", "class", "css-cp"]
         }
     ],
-    "dile": [
+    "u2": [
         {
-            "name": "Dile Components",
-            "url": "https://github.com/Polydile/dile-components",
-            "affected": ["ce", "css-cp"]
+            "name": "U2 Design-System",
+            "url": "https://github.com/u2ui",
+            "affected": ["ce", "ca", "class", "css-cp"]
         }
     ],
     "lion": [
         {
             "name": "Lion Components",
             "url": "https://github.com/ing-bank/lion",
-            "affected": ["ce"]
-        }
-    ],
-    "bx": [
-        {
-            "name": "Carbon Web Components",
-            "url": "https://github.com/carbon-design-system/carbon-web-components",
-            "affected": ["ce"]
-        }
-    ],
-    "dds": [
-        {
-            "name": "Carbon for IBM.com Web Components",
-            "url": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/web-components",
             "affected": ["ce"]
         }
     ],
@@ -629,18 +640,18 @@
             "affected":["class"]
         }
     ],
+    "w3": [
+        {
+            "name": "W3-CSS",
+            "url": "https://github.com/vitorlans/w3-css",
+            "affected": ["class"]
+        }
+    ],
     "vwc": [
         {
             "name":"Vivid UI",
             "url":"https://github.com/vonage/vivid",
             "affected":["ce"]
-        }
-    ],
-    "bal": [
-        {
-            "name":"Baloise Design System",
-            "url":"https://design.baloise.dev",
-            "affected":["ce", "class", "css-cp"]
         }
     ]
 }

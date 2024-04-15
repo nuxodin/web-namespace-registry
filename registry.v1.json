@@ -653,5 +653,12 @@
             "url":"https://github.com/vonage/vivid",
             "affected":["ce"]
         }
+    ],
+    "post": [
+        {
+            "name": "Swiss Post Design System",
+            "url": "https://design-system.post.ch",
+            "affected": ["ce", "css-cp"]
+        }
     ]
 }

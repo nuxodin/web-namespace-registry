@@ -144,6 +144,13 @@
             "affected": ["ce", "ca", "css-cp", "class"]
         }
     ],
+    "duet": [
+        {
+            "name": "Duet Design System",
+            "url": "https://github.com/duetds",
+            "affected": ["ce", "class", "event"]
+        }
+    ],
     "elix": [
         {
             "name": "Elix",
@@ -232,53 +239,18 @@
             "affected": ["ce"]
         }
     ],
+    "iron":[
+        {
+            "name":"PolymerElements",
+            "url":"https://github.com/PolymerElements",
+            "affected":["ce"]
+        }
+    ],
     "kor": [
         {
             "name": "Kor Design System",
             "url": "https://github.com/kor-ui/kor",
             "affected": ["ce"]
-        }
-    ],
-    "nb": [
-        {
-            "name": "Nebular",
-            "url": "https://github.com/akveo/nebular",
-            "affected": ["ce", "class"]
-        }
-    ],
-    "slds": [
-        {
-            "name": "Salesforce Lightning Design System",
-            "url": "https://github.com/salesforce-ux/design-system",
-            "affected": ["class"]
-        }
-    ],
-    "sprk": [
-        {
-            "name": "Spark Design System",
-            "url": "https://github.com/sparkdesignsystem/spark-design-system",
-            "affected": ["class"]
-        }
-    ],
-    "tw": [
-        {
-            "name": "tailwind css",
-            "url": "https://github.com/tailwindlabs/tailwindcss",
-            "affected": ["css-cp"]
-        }
-    ],
-    "oui": [
-        {
-            "name": "Open UI",
-            "url": "https://github.com/WICG/open-ui",
-            "affected": ["ce"]
-        }
-    ],
-    "oj": [
-        {
-            "name": "Oracle JET",
-            "url": "https://github.com/oracle/oraclejet",
-            "affected": ["ce", "ca", "css-cp", "class"]
         }
     ],
     "md": [
@@ -300,6 +272,48 @@
             "name": "NE - Native Elements",
             "url": "https://github.com/n-elements/core",
             "affected": ["ca", "css-cp"]
+        }
+    ],
+    "nb": [
+        {
+            "name": "Nebular",
+            "url": "https://github.com/akveo/nebular",
+            "affected": ["ce", "class"]
+        }
+    ],
+    "oui": [
+        {
+            "name": "Open UI",
+            "url": "https://github.com/WICG/open-ui",
+            "affected": ["ce"]
+        }
+    ],
+    "oj": [
+        {
+            "name": "Oracle JET",
+            "url": "https://github.com/oracle/oraclejet",
+            "affected": ["ce", "ca", "css-cp", "class"]
+        }
+    ],
+    "slds": [
+        {
+            "name": "Salesforce Lightning Design System",
+            "url": "https://github.com/salesforce-ux/design-system",
+            "affected": ["class"]
+        }
+    ],
+    "sprk": [
+        {
+            "name": "Spark Design System",
+            "url": "https://github.com/sparkdesignsystem/spark-design-system",
+            "affected": ["class"]
+        }
+    ],
+    "tw": [
+        {
+            "name": "tailwind css",
+            "url": "https://github.com/tailwindlabs/tailwindcss",
+            "affected": ["css-cp"]
         }
     ],
     "wl": [
@@ -342,13 +356,6 @@
             "name": "PO UI",
             "url": "https://github.com/po-ui",
             "affected": ["ce", "class"]
-        }
-    ],
-    "duet": [
-        {
-            "name": "Duet Design System",
-            "url": "https://github.com/duetds",
-            "affected": ["ce", "class", "event"]
         }
     ],
     "usa": [
@@ -577,18 +584,18 @@
             "affected":["ca","class","css-cp"]
         }
     ],
-    "iron":[
+    "paper":[
         {
             "name":"PolymerElements",
             "url":"https://github.com/PolymerElements",
             "affected":["ce"]
         }
     ],
-    "paper":[
+    "post": [
         {
-            "name":"PolymerElements",
-            "url":"https://github.com/PolymerElements",
-            "affected":["ce"]
+            "name": "Swiss Post Design System",
+            "url": "https://design-system.post.ch",
+            "affected": ["ce", "css-cp"]
         }
     ],
     "std":[
@@ -619,13 +626,6 @@
             "affected": ["ce"]
         }
     ],
-    "zoo": [
-        {
-            "name": "Zooplus Web Components",
-            "url": "https://github.com/zooplus/zoo-web-components",
-            "affected": ["ce"]
-        }
-    ],
     "pf": [
         {
             "name": "PatternFly Design System",
@@ -640,13 +640,6 @@
             "affected":["class"]
         }
     ],
-    "w3": [
-        {
-            "name": "W3-CSS",
-            "url": "https://github.com/vitorlans/w3-css",
-            "affected": ["class"]
-        }
-    ],
     "vwc": [
         {
             "name":"Vivid UI",
@@ -654,11 +647,25 @@
             "affected":["ce"]
         }
     ],
-    "post": [
+    "w3": [
         {
-            "name": "Swiss Post Design System",
-            "url": "https://design-system.post.ch",
-            "affected": ["ce", "css-cp"]
+            "name": "W3-CSS",
+            "url": "https://github.com/vitorlans/w3-css",
+            "affected": ["class"]
+        }
+    ],
+    "x": [
+        {
+            "name":"Alpine.js",
+            "url":"https://github.com/alpinejs/alpine",
+            "affected":["ca"]
+        }
+    ],
+    "zoo": [
+        {
+            "name": "Zooplus Web Components",
+            "url": "https://github.com/zooplus/zoo-web-components",
+            "affected": ["ce"]
         }
     ]
 }

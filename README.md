@@ -35,13 +35,14 @@ affected means:
 
 There can be multiple frameworks using the same namespace.  
 
-
+<!--
 ### Add a badge
 [![Registred Namespace](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=myns)](https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html)
 ```
 [![Registred Namespace](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=myns)](https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html)
 ```
 Replace "myns" with your namespace.
+-->
 
 ## Contribute
 

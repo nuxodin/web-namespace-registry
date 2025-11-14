@@ -90,6 +90,13 @@
             "affected": ["ce", "ca", "css-cp"]
         }
     ],
+    "bulib": [
+        {
+            "name": "bulib-wc",
+            "url": "https://github.com/bulib/bulib-wc",
+            "affected": ["ce"]
+        }
+    ],
     "bx": [
         {
             "name": "Carbon Web Components",
@@ -191,6 +198,20 @@
             "name": "Spark Web Components",
             "url": "https://github.com/MyPureCloud/genesys-webcomponents",
             "affected": ["ce", "class", "css-cp"]
+        }
+    ],
+    "fw": [
+        {
+            "name": "Freshworks Crayons",
+            "url": "https://github.com/freshworks/crayons",
+            "affected": ["ce"]
+        }
+    ],
+    "hiq": [
+        {
+            "name":"HiQ - CSS framework",
+            "url":"https://github.com/jonathanharrell/hiq",
+            "affected":["css-cp"]
         }
     ],
     "howto": [
@@ -330,13 +351,6 @@
             "affected": ["ce"]
         }
     ],
-    "fw": [
-        {
-            "name": "Freshworks Crayons",
-            "url": "https://github.com/freshworks/crayons",
-            "affected": ["ce"]
-        }
-    ],
     "wired": [
         {
             "name": "wired-elements",
@@ -381,13 +395,6 @@
             "name": "Porsche Design System",
             "url": "https://github.com/porsche-design-system/porsche-design-system",
             "affected": ["ce", "css-cp"]
-        }
-    ],
-    "bulib": [
-        {
-            "name": "bulib-wc",
-            "url": "https://github.com/bulib/bulib-wc",
-            "affected": ["ce"]
         }
     ],
     "wc": [
@@ -528,13 +535,6 @@
             "affected":["ce"]
         }
     ],
-    "hiq": [
-        {
-            "name":"HiQ - CSS framework",
-            "url":"https://github.com/jonathanharrell/hiq",
-            "affected":["css-cp"]
-        }
-    ],
     "tangy": [
         {
             "name":"Tangerine Community",
@@ -645,6 +645,13 @@
             "name":"Vivid UI",
             "url":"https://github.com/vonage/vivid",
             "affected":["ce"]
+        }
+    ],
+    "wa": [
+        {
+            "name": "Web Awesome",
+            "url": "https://github.com/shoelace-style/webawesome",
+            "affected": ["ce","css-cp","class"]
         }
     ],
     "w3": [

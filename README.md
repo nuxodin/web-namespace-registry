@@ -5,7 +5,7 @@ The goal of this project:
 If someone is planning to develop a web framework, they can check to see if there might be a naming conflict with another framework.
 
 ## Check if a namespace is used
-Check a namespace on [webnamespaces.org](
+Check a namespace on [[webnamespaces.org](https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html)](
   https://webnamespaces.org
 )
 
@@ -37,9 +37,9 @@ There can be multiple frameworks using the same namespace.
 
 
 ### Add a badge
-[![Registred on webnamespaces.org](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=myns)](https://webnamespaces.org)
+[![Registred on webnamespaces.org](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=myns)]([https://webnamespaces.org](https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html))
 ```
-[![Registred on webnamespaces.org](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=myns)](https://webnamespaces.org)
+[![Registred on webnamespaces.org](https://img.shields.io/static/v1?label=webnamespaces.org&color=blue&message=myns)]([https://webnamespaces.org](https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html))
 ```
 Replace "myns" with your namespace.
 

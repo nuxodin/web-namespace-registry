@@ -5,9 +5,7 @@ The goal of this project:
 If someone is planning to develop a web framework, they can check to see if there might be a naming conflict with another framework.
 
 ## Check if a namespace is used
-Check a namespace on [https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html](
-  https://webnamespaces.org
-)
+Check a namespace on https://raw.githack.com/nuxodin/web-namespace-registry/main/web/index.html
 
 ## Add your framework
 Make a fork, extend registry.v1.json and make a pull request.  
